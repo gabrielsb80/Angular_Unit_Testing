@@ -13,9 +13,11 @@ describe('LikeWidgetComponent', () => {
       imports: [LikeWidgetModule]
     }).compileComponents();
 
+  });
+
+  beforeEach(() => {
     fixture = TestBed.createComponent(LikeWidgetComponent);
     component = fixture.componentInstance;
-
   });
 
 
